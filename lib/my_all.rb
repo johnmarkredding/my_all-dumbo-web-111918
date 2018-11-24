@@ -7,4 +7,5 @@ def my_all?(collection)
     result << yield(collection[i])
     i += 1
   end
+  result
 end
