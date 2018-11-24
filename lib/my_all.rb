@@ -1,10 +1,10 @@
 require 'pry'
 
 def my_all?(collection)
-  result = []
+  results = []
   i = 0
   while i < collection.length
-    result << yield(collection[i])
+    results << yield(collection[i])
     i += 1
   end
   result.any? do |x|
