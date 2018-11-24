@@ -7,6 +7,7 @@ def my_all?(collection)
     result << yield(collection[i])
     i += 1
   end
-  result.any? do ||
+  result.any? do |x|
+    x == false
   end
 end
