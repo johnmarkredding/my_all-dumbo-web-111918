@@ -8,6 +8,6 @@ def my_all?(collection)
     i += 1
   end
   result.any? do |x|
-    x == false
+    x == true
   end
 end
